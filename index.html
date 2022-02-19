@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inventory Management System</title>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+		<style>
+			*{
+				font-family: 'Open Sans';
+			}
+			body{
+				margin: 0px;
+			}
+			#sidebar{
+				height: 100%;
+				background: linear-gradient(#12173F, #110E8E);
+				color: white;
+				text-transform: uppercase;
+				font-weight: bold;
+				filter: drop-shadow(0px 0px 1rem grey);
+			}
+			#grid{
+				height: 95.6vh;
+				display: grid;
+				grid-template-columns: 2fr 10fr;
+			}
+			#grid > div{
+				padding: 1rem;
+			}
+			#sb-grid{
+				display: grid;
+				align-items: center;
+				grid-template-rows: 1fr 4fr 1fr 1fr
+			}
+			#sb-grid > div{
+				padding: 1rem 2rem;
+			}
+			hr{
+				color: white;
+				background-color: white;
+				height: 3px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="grid">
+			<div id="sidebar">
+				<div id="sb-grid">
+					<div style="padding: 1rem;">
+						Inventory<br>Management System
+					</div>
+					<div></div>
+					<div>
+						Home
+						<hr>
+					</div>
+					<div>
+						Electronics
+						<hr>
+					</div>
+					<div>
+						Groceries
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div>
+				Hello
+			</div>
+		</div>
+	<body>
+</html>
